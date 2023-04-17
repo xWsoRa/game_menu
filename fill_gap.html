@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fill in the Blank Game</title>
+    <link rel="stylesheet" href="style_gap.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Fill in the Blank</h1>
+      <form id="form">
+        <div class="question-container">
+          <p id="question" class="question"></p>
+          <input type="text" id="answer" class="answer-input" required>
+        </div>
+        <div class="button-container">
+          <button type="submit" class="btn check-answer-btn">Check Answer</button>
+          <button type="button" id="next-btn" class="btn next-btn" disabled>Next Question</button>
+        </div>
+        <p id="result" class="result"></p>
+      </form>
+    </div>
+    <div class="score">
+        <p><span id="score"></span>.</p>
+      </div>
+    <script src="script_gap.js"></script>
+  </body>
+</html>
