@@ -8,5 +8,5 @@ gameButton2.addEventListener("click", function() {
 });
 const gameButton3 = document.getElementById("gameButton3");
 gameButton3.addEventListener("click", function() {
-  window.open("file:///C:/Users/Pilar/Desktop/Uni%20mario/curso%204/semantica/game%20from%20internet/long.html", "_blank");
+  window.open("https://xwsora.github.io/long_questions/", "_blank");
 });
